@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,500&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    overflow: visible;
+}
+
+.firstBlock {
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.firstBlockBackground {
+    width: 10%;
+    height: calc(100vh);
+}
+
+.firstBlockGreen {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.firstBlockText {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 24%;
+    left: 27%;
+}
+
+.hoverTextBlock {
+    font-family: 'Poppins', sans-seri;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    opacity: 0;
+}
+
+.hoverTextBlockTitle {
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.hoverTextBlockContent {
+    line-height: 30px;
+}
+
+#firstBlockLine {
+    background-color: aliceblue;
+    height: 0px;
+    width: 1px;
+    border-radius: 20%;
+    margin: 50px auto;
+
+}
+
+
+/*---------------------SECOND-BLOCK----------------------------------------------------*/
+.secondBlock {
+    position: relative;
+    display: flex;
+    margin: 0;
+    overflow: hidden;
+}
+
+.zoom-effect-container {
+    position: relative;
+    width: 100%;
+    height: 560px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.image-card {
+    position: absolute;
+}
+
+.image-card img {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+.zoom-effect-container:hover .image-card img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+/*---------------THIRD-BLOCK------------------------------------------------*/
+.thirdBlock {
+    position: relative;
+}
+
+.thirdBlock img {
+    position: absolute;
+}
+
+#bigElement {
+    transform: scale(0.4);
+    top: 0;
+    left: 50vh;
+}
+
+#coin1 {
+    transform: scale(0.4);
+    left: 25vh;
+}
+
+#coin2 {
+    transform: scale(0.5);
+    left: 10vh;
+    top: 620px;
+}
+
+#coin3 {
+    transform: scale(0.4);
+    right: 10px;
+}
+
+#coin4 {
+    transform: scale(0.6);
+    right: 25px;
+    top: 700px;
+}
